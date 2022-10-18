@@ -2,10 +2,11 @@
   margin: 0;
 }
 .App > h1 {
-  background: black;
+  background: #175676;
   color: white;
   margin: 0;
   padding: 1em 1.5em;
+  text-align: center;
 }
 .App > h1 span {
   font-size: 0.5em;
@@ -19,7 +20,7 @@ section.PlayerList {
   padding: 1em;
 }
 section.MatchList {
-  background: black;
+  background: #175676;
   color: white;
 }
 section.MatchList > h1 {
@@ -39,7 +40,7 @@ article.Player {
   width: 30%;
   min-width: 300px;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid #175676;
   padding: 1em;
   display: flex;
   justify-content: center;
@@ -53,7 +54,7 @@ article.Match {
 }
 article.Match:hover,
 article.Player:hover {
-  box-shadow: 0px 0px 10px 0px #777;
+  box-shadow: 0px 0px 10px 0px #8AA8A1;
 }
 
 article.Player:last-of-type {
@@ -62,6 +63,7 @@ article.Player:last-of-type {
 article.Match h1,
 article.Player h1 {
   width: 100%;
+  text-align: center;
 }
 article.Match h1 span,
 article.Player h1 span {
